@@ -146,6 +146,82 @@ nav li a{
     font-weight: 400;
 }
 
+/* Features Section Styling */
+
+.features-container{
+    display: flex;
+    margin-top: 130px;
+    gap: 100px;
+    /* width: 960px; */
+    justify-content: space-evenly;
+    
+    
+}
+
+.features-content .card{
+
+    width: 586px;
+    height: 171px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.features-content{
+    /* width: 100%; */
+
+    
+}
+
+.features-img img{
+    width: 100%;
+    /* height: 100%; */
+   
+    /* width: 708px;
+    height: 982px; */
+}
+
+.features-content .section-title{
+    border-left:5px solid #FF900E;
+    padding-left: 20px;
+    
+}
+
+.features-content .section-description{
+    width: 586px;
+}
+
+.Year-badge{
+    border-radius: 8px;
+    background-color: #FF900E;
+    width: 342px;
+    height: 200px;
+    margin-left: -46px;
+    text-align: center;
+    padding-top: 45px;
+    margin-top: -150px;
+    position: relative;
+}
+.Year-badge>h2{
+    color: #FFF;
+    font-weight: 700;
+    font-size: 65px;
+    /* padding-top: 45px ; */
+    line-height: 70px;
+    margin: 0;
+}
+
+.Year-badge>p{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 45px;
+    line-height: 40px;
+}
+
+
 /*Facts Section Styling  */
 
 .facts-card-container{
@@ -154,7 +230,7 @@ nav li a{
     
 }
 
-.card{
+.facts-card-container .card{
 
     width: 240px;
     height: 240px;
@@ -217,10 +293,18 @@ nav li a{
        padding: 18px;
        
    }
-   nav,.facts-card-container, .Sponsors-container, .footer{
+   nav,.facts-card-container, .Sponsors-container, .footer, .features-container{
        flex-direction: column;
    }
    
+   .features-content .section-description{
+    width: 300px;
+   }
+ 
+   .features-content .card{
+    width: 300px;
+   }
+
    .teams-container{
       flex-direction:column-reverse;
       
