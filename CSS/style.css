@@ -52,10 +52,11 @@ nav{
 
 nav >ul {
     display: flex;
+    
 }
 nav li{
+    
     list-style: none;
-  
     padding-left: 30px;
     color:  #424242;
     font-size: 18px;
